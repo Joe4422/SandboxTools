@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sandbox.Engine\Sandbox.Engine.csproj" />
+    <ProjectReference Include="..\Sandbox.Game\Sandbox.Game.csproj" />
+    <ProjectReference Include="..\Sandbox.Hotload\Sandbox.Hotload.csproj" />
+    <ProjectReference Include="..\Sandbox.System\Sandbox.System.csproj" />
+  </ItemGroup>
+
+</Project>
